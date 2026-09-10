@@ -501,9 +501,10 @@ body {
 
 .photo-collage {
   position: relative;
-  width: 420px;
-  height: 430px;
-  flex-shrink: 0;
+  width: 100%;
+  max-width: 420px;
+  height: 620px;
+  margin: 0 auto;
 }
 
 .collage-photo {
